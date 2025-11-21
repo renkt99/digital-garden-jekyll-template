@@ -3,7 +3,7 @@
   publish = "_site"
 
 [build.environment]
-  RUBY_VERSION = "3.1"
   JEKYLL_ENV = "production"
-  # Disable mise auto-installation
-  MISE_DISABLED = "1"
+
+[[plugins]]
+  package = "@netlify/plugin-ruby"
